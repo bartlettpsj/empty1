@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to small web page</title>
+    <link rel="stylesheet" href="css/site.css" type="text/css">
+    <link rel="stylesheet" href="css/page.css" type="text/css">
+</head>
+<body>
+<script>
+    function runme(name) {
+        const a = EntryPoint.callme(name);
+        alert(a);
+    }
+</script>
+
+<span id="text_here"></span>
+
+<button onclick="runme('fred')">Click Me</button>
+
+</body>
+</html>
+
+<script>console.log('EntryPoint is:', EntryPoint);</script>
